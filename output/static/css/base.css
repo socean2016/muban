@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,address,caption,cite,code,dfn,em,strong,th,var{margin:0;padding:0}
+ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0;display:block}
+html,body{width:100%}
+address,caption,cite,code,dfn,em,strong,th,var,i{font-weight:400;font-style:normal}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:12px}
+q:before,q:after{content:''}
+abbr,acronym{border:0}
+a,a:hover{text-decoration:none}
+input,select{outline:0;border:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+.fl{float:left}
+.fr{float:right}
+.fnon{float:none}
+.hide{display:none}
+.hid{visibility:hidden;display:none}
+.visib{visibility:visible;display:block}
+.abs{position:absolute}
+.relt{position:relative}
+@font-face{font-family:Futura;src:url(http://pic13.shangpin.com/shangpin/fonts/futura-opentype.eot?v=20170317052156);src:url(http://pic12.shangpin.com/shangpin/fonts/futura-opentype.eot?#iefix?v=20170317052156) format('embedded-opentype'),url(http://pic13.shangpin.com/shangpin/fonts/futura-opentype.woff?v=20170317052156) format('woff'),url(http://pic13.shangpin.com/shangpin/fonts/futura-opentype.ttf?v=20170317052156) format('truetype'),url(http://pic11.shangpin.com/shangpin/fonts/futura-opentype.svg#glyphicons_halflingsregular?v=20170317052156) format('svg');font-weight:400;font-style:normal}
+body{background:#fff;font:14px/1.5 Futura,PingHei,'PingFang SC','Helvetica Neue',Helvetica,"微软雅黑","Microsoft YaHei",Tahoma,Arial,"宋体";-webkit-font-smoothing:antialiased}
+.sp-container{width:1200px;margin:0 auto}
+.clr:after{content:"";display:block;height:0;clear:both;visibility:hidden}

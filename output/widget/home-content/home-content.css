@@ -1,0 +1,13 @@
+.pc-home{position:relative;top:-10px}
+.section-left,.section-right{width:600px;float:left;margin-top:15px}
+.size6_8{width:600px;height:920px}
+.size5_6{width:500px;height:787px}
+.size5_3{width:544px;height:460px}
+.margin_1{margin-left:56px;margin-bottom:215px}
+.margin_2{margin-left:56px;margin-bottom:112px}
+.margin_3{margin-left:56px;margin-bottom:133px}
+.margin_4{margin-left:56px}
+.section-left p,.section-right p{width:100%;height:120px;text-align:center}
+.section-left p span,.section-right p span,.section-left p em,.section-right p em{display:block}
+.section-left p span,.section-right p span{color:#000;font-size:18px}
+.section-left p em,.section-right p em{color:#888;font-size:14px}

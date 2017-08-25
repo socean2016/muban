@@ -1,0 +1,31 @@
+.clearfix{zoom:1}
+.clearfix:after{content:" ";display:block;visibility:hidden;clear:both}
+.pc-footer{padding-top:20px}
+.pc-footer .footer-service{background:#000;margin-top:30px}
+.pc-footer .footer-service img{width:100%}
+.pc-footer .footer-list{padding-top:20px}
+.pc-footer .footer-list .list-item{width:25%}
+.pc-footer .footer-list .list-item ul{text-indent:41%}
+.pc-footer .footer-list .list-item ul .item-title{line-height:40px;font-size:14px;color:#000;font-weight:700}
+.pc-footer .footer-list .list-item ul li a{font-size:13px;line-height:25px;color:#000}
+.pc-footer .footer-list .list-item ul li a:hover{color:#888;text-decoration:underline}
+.pc-footer .footer-list .follow-us{text-align:center}
+.pc-footer .footer-list .follow-us a{display:inline-block;font-size:30px;color:#000;position:relative;top:0;left:0}
+.pc-footer .footer-list .follow-us .icons-wechat{margin-right:10px}
+.pc-footer .footer-list .follow-us .icons-wechat:hover .us-wechat-img{display:block}
+.pc-footer .footer-list .follow-us .icons-blog{margin-left:10px}
+.pc-footer .footer-list .follow-us .icons-blog:hover .us-blog-img{display:block}
+.pc-footer .footer-list .follow-us .us-img{position:absolute;top:30px;width:140px;height:180px;display:none}
+.pc-footer .footer-list .follow-us .us-wechat-img{left:-26px}
+.pc-footer .footer-list .follow-us .us-blog-img{left:-80px}
+.pc-footer .footer-about{border-top:1px solid #ccc;padding-top:20px;margin-top:25px}
+.pc-footer .about-sp{text-align:center;height:28px}
+.pc-footer .about-sp .about-sp-list{zoom:1;display:inline-block}
+.pc-footer .about-sp .about-sp-list:after{content:" ";display:block;visibility:hidden;clear:both}
+.pc-footer .about-sp .about-sp-list li{padding:0 12px;line-height:28px;height:28px;float:left}
+.pc-footer .about-sp .about-sp-list li a{color:#000}
+.pc-footer .about-icp{color:#555;margin-top:5px;text-align:center}
+.pc-footer .about-icp a{color:#333;text-decoration:none;cursor:pointer}
+.pc-footer .about-company{margin:5px auto 0;font-size:13px;text-align:center}
+.pc-footer .about-auth{padding:10px 0;text-align:center;color:#555;margin-top:5px}
+.pc-footer .about-auth a{padding:0 4px;font-size:0;display:inline-block;width:76px;height:22px}

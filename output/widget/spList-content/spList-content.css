@@ -1,0 +1,45 @@
+.list-content{position:relative;top:0;left:0}
+.list-items{width:85%;padding-left:29px;padding-top:20px;-moz-box-sizing:border-box;box-sizing:border-box;float:left}
+.list-items .list-item{width:240px;float:left;margin-right:10px}
+.list-items .list-item:nth-child(4n){margin-right:0}
+.list-items .list-item .item_size em{width:19.8%}
+.list-items .list-item.four{width:240px;float:left;margin-right:10px}
+.list-items .list-item.four:nth-child(4n){margin-right:0}
+.list-items .list-item.four .item_size em{width:19.8%}
+.list-items .list-item.four .item_size em.one{width:15.5%;display:inline-block;float:none}
+.list-items .list-item.three{width:317px;float:left;margin-right:20px}
+.list-items .list-item.three:nth-child(3n){margin-right:0}
+.list-items .list-item.three .item_size em{width:12.8%}
+.list-items .list-item.two{width:480px;float:left;margin-right:30px}
+.list-items .list-item.two:nth-child(2n){margin-right:0}
+.list-items .list-item.two .item_size em{width:8.65%}
+.list-item img{width:100%}
+.list-item .item-img{position:relative;width:100%}
+.list-item .item-img .img-fir{position:relative;top:0;left:0;z-index:1;opacity:1;-webkit-transition:opacity .4s ease}
+.list-item .item-img .img-fir.hover{opacity:0;-webkit-transition:opacity .4s ease}
+.list-item .item-img .img-sec{position:absolute;top:0;left:0;z-index:2;opacity:0;-webkit-transition:opacity .4s ease}
+.list-item .item-img .img-sec.hover{z-index:2;opacity:1;-webkit-transition:opacity .4s ease}
+.list-item .item_size{position:absolute;zoom:1;display:none;left:50%;bottom:0;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);width:89%;z-index:20;text-align:center;background:-webkit-linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7),rgba(255,255,255,.5));background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7),rgba(255,255,255,.5));color:#000;padding:8px 10px;-moz-box-sizing:border-box;box-sizing:border-box}
+.list-item .item_size em{position:relative;display:block;padding:0 5px;margin-bottom:2px;margin-right:0;float:left;font-size:10px;text-align:center}
+.list-item .item_size em.non{color:#ccc}
+.list-item .item_size em.one{width:15.5%;display:inline-block;float:none}
+.list-item .item_info{padding:0 10px 10px;line-height:22px;color:#000;text-align:center}
+.list-item .item_info .icon{padding:15px 0 5px;height:18px;line-height:18px;white-space:nowrap;text-overflow:ellipsis}
+.list-item .item_info .icon i{display:inline-block!important;font-size:12px;color:#888!important;background-color:#fff;width:auto;height:16px;line-height:16px;padding:0 6px;margin:0 5px;cursor:default!important;border:1px solid #888}
+.list-item .item_info h3{font-size:16px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.list-item .item_info .item_name{font-size:13px;color:#888;line-height:14px;margin:3px 0;max-height:28px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center}
+.list-item .item_info .item_price{color:#000;font-size:13px;position:relative;padding:0 10px}
+.list-item .item_info .item_price span{padding:0 10px;background:#fff}
+.list-item .item_info .item_price span .gold_price{color:#0700c5;margin-left:10px;padding:0}
+.list-item .item_info .item_price span .red_price{color:#c62026;margin-left:10px;padding:0}
+.list-item .item_info .item_price span del{text-decoration:none}
+.list-item .item_info .item_price span .sale_price{text-decoration:line-through;color:#888}
+.list-item .item_info .item_price em{height:1px;position:absolute;top:50%;width:92%;background:#ccc;display:block;z-index:-1}
+.page_num{display:inline-block;margin:0 5px 0 20px;float:right}
+.page_num a{display:inline-block;width:auto;height:16px;font-size:13px;text-align:center;color:#888;padding:0 3px;line-height:16px;cursor:pointer}
+.page_num a.cur{color:#2d2d2d}
+.page_num a.page_icon.cur:after{color:#000}
+.page_num a.page_icon:after{content:"\F104";font-size:16px;font-family:FontAwesome;color:#ccc}
+.page_num a.page_icon.page_icon_right::after{content:"\F105"}
+.page_num a.page_icon.page_icon_leftAll::after{content:"\F100"}
+.page_num a.page_icon.page_icon_rightAll::after{content:"\F101"}

@@ -1,0 +1,8 @@
+.sp-container{position:relative}
+.sp-container .listBrandTitle{text-align:center}
+.sp-container .listBrandTitle h1{color:#000;font-size:28px;padding-top:8px}
+.sp-container .listBrandTitle p{color:#888;font-size:16px;margin-bottom:10px}
+.sp-container .listBrandTitle a{display:block;width:80px;height:26px;border:1px solid #0700c5;font-size:14px;margin:0 auto;line-height:28px;color:#0700c5;cursor:pointer}
+.sp-container .coupon_box{height:77px;position:absolute;top:122px;left:50%;cursor:pointer;border:1px solid #ccc;background:#f3f3f3;text-align:center;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);z-index:2;display:none}
+.sp-container .coupon_box i{width:8px;height:8px;display:block;position:absolute;top:-5px;right:48%;background:#f3f3f3;border:1px solid #ccc;-webkit-transform:translateX(-50%) rotateZ(45deg);-ms-transform:translateX(-50%) rotate(45deg);transform:translateX(-50%) rotateZ(45deg);border-right:0;border-bottom:0;z-index:3}
+.sp-container .coupon_box img{display:inline-block;border:1px solid #000;margin:12px 20px}

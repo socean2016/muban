@@ -1,0 +1,10 @@
+.spDetail{margin:30px auto 0}
+.detail_info{margin-top:-1px}
+.spDetail .detail_info .detail_title{height:50px;border-top:1px solid #ccc;border-bottom:1px solid #ccc}
+.spDetail .detail_info .detail_title p{float:left;margin-left:10px;font-size:14px;line-height:50px;font-weight:500}
+.spDetail .detail_info .detail_title span{display:block;width:14px;height:20px;background-image:url(/static/img/detail/top_down2.png);background-repeat:no-repeat;background-position:-4px -40px;float:right;margin-top:14px;margin-right:10px;cursor:pointer}
+.spDetail .detail_info .detail_title span.down{background-position:-4px -59px}
+.spDetail .detail_info .detail_content{margin:20px auto;color:#000}
+.spDetail .detail_info .detail_content p{font-size:14px;padding-left:10px;color:#555}
+.spDetail .detail_info .detail_content p span{color:#000}
+.spDetail .detail_info .detail_content.detail_img,.spDetail .detail_info .detail_content.detail_attention{display:none}

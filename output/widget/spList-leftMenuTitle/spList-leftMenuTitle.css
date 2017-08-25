@@ -1,0 +1,39 @@
+.spList-navtitle{height:40px;border-bottom:1px solid #ccc;margin-top:20px}
+.spList-navtitle h3{font-size:16px;height:40px;line-height:39px;color:#000;float:left}
+.spList-navtitle span{float:left;line-height:40px}
+.spList-navtitle form{display:inline-block;width:170px;text-align:left;margin-left:175px;height:40px;line-height:37px}
+.spList-navtitle form label{float:left;display:block;cursor:pointer;position:relative;margin-right:7px}
+.spList-navtitle form label a{color:#000}
+.spList-navtitle form label i{position:absolute;top:12px;left:2px;display:block;width:10px;height:10px;outline:0;border:1px solid #ccc;background:#fff;border-radius:50%}
+.spList-navtitle form label input{width:12px;height:12px;border:1px solid #ccc;text-align:center;margin:12px 2px;outline:1px;border:1px;-webkit-appearance:radio;-moz-appearance:radio;appearance:radio;float:left;cursor:pointer}
+.spList-navtitle form label input.checked{background:#fff}
+.spList-navtitle form label input.checked+i{background:#ccc}
+.spList-navtitle .navtitle-right{float:right;line-height:40px}
+.spList-navtitle .navtitle-right .columnImg{width:120px;height:22px;display:inline-block;position:relative;top:7px;margin-right:25px}
+.spList-navtitle .navtitle-right .columnImg a{display:inline-block;width:22px;height:22px;margin-right:15px;cursor:pointer}
+.spList-navtitle .navtitle-right .columnImg a.four{background:url(/static/img/list/col.png) 0 0}
+.spList-navtitle .navtitle-right .columnImg a.four.cur{background:url(/static/img/list/col.png) 0 -22px}
+.spList-navtitle .navtitle-right .columnImg a.three{background:url(/static/img/list/col.png) 0 -44px}
+.spList-navtitle .navtitle-right .columnImg a.three.cur{background:url(/static/img/list/col.png) 0 -66px}
+.spList-navtitle .navtitle-right .columnImg a.two{background:url(/static/img/list/col.png) 0 -88px}
+.spList-navtitle .navtitle-right .columnImg a.two.cur{background:url(/static/img/list/col.png) 0 -110px}
+.spList-navtitle .navtitle-right .sort_select{width:130px;height:20px;line-height:20px;display:inline-block;position:relative;text-align:left;cursor:pointer;font-size:13px}
+.spList-navtitle .navtitle-right .sort_select span{padding-left:8px;position:relative;color:#010101;height:20px;line-height:20px;float:none;margin-left:0}
+.spList-navtitle .navtitle-right .sort_select span:after{content:"\F107";position:absolute;right:-30px;font-size:16px;font-family:FontAwesome;color:#ccc}
+.spList-navtitle .navtitle-right .sort_select span em{display:inline-block;float:right;text-align:center;width:20px;height:20px;line-height:20px;background:url(../../images/page/list/sort_down.png)}
+.spList-navtitle .navtitle-right .sort_select .sort_menu{display:none;position:absolute;z-index:999;width:105%;-moz-box-sizing:border-box;box-sizing:border-box;border:1px solid #ccc;background:#fff}
+.spList-navtitle .navtitle-right .sort_select .sort_menu a{display:block;color:#010101;text-align:left}
+.spList-navtitle .navtitle-right .sort_select .sort_menu li{height:27px;line-height:22px}
+.spList-navtitle .navtitle-right .sort_select .sort_menu li a{padding-left:8px}
+.spList-navtitle .navtitle-right .sort_select .sort_menu li.cur a{color:#fff;background:#000}
+.spList-navtitle .navtitle-right .sort_select .sort_menu li:hover a{color:#fff;background:#000}
+.spList-navtitle .navtitle-right .page_num{display:inline-block;margin:0 5px 0 20px}
+.spList-navtitle .navtitle-right .page_num a{display:inline-block;width:auto;height:16px;font-size:13px;text-align:center;color:#888;padding:0 3px;line-height:16px;cursor:pointer}
+.spList-navtitle .navtitle-right .page_num a.cur{color:#2d2d2d}
+.spList-navtitle .navtitle-right .page_num a.page_icon.cur:after{color:#000}
+.spList-navtitle .navtitle-right .page_num a.page_icon:after{content:"\F104";font-size:16px;font-family:FontAwesome;color:#ccc}
+.spList-navtitle .navtitle-right .page_num a.page_icon.page_icon_right::after{content:"\F105"}
+.spList-navtitle .navtitle-right .page_num a.page_icon.page_icon_leftAll::after{content:"\F100"}
+.spList-navtitle .navtitle-right .page_num a.page_icon.page_icon_rightAll::after{content:"\F101"}
+.spList-navtitle .navtitle-right input{width:40px;height:18px;border:1px solid #ccc;text-align:center;margin:0 5px}
+.spList-navtitle .navtitle-right .page_go{padding:0 5px;background:#fff;border:1px solid #ccc;cursor:pointer;outline:0;margin-left:5px;height:20px;line-height:13px;position:relative;top:-1px}

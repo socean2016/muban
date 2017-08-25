@@ -1,0 +1,29 @@
+.product-list-title{height:40px;line-height:40px;margin:10px 0;background:#000;color:#fff;text-align:center;font-size:18px;position:relative;padding-right:60px;overflow:hidden;white-space:nowrap}
+.title-more{display:block;position:absolute;top:0;right:10px;color:#fff;font-size:18px;vertical-align:top}
+.title-more .icon-caret-right{font-size:15px;color:#fff;margin-left:10px;vertical-align:middle}
+.tab-content{position:relative;width:90%;margin:0 auto;padding-top:30%}
+.tab-content #swiper-container2,.tab-content #swiper-container3{padding:0;position:absolute;width:100%;top:0;left:0}
+.tab-content #swiper-container2 .swiper-wrapper,.tab-content #swiper-container3 .swiper-wrapper{width:auto}
+.tab-content #swiper-container2 .swiper-slide,.tab-content #swiper-container3 .swiper-slide{width:230px;margin:0}
+.tab-content #swiper-container2 .swiper-slide a,.tab-content #swiper-container3 .swiper-slide a{display:block;padding:0 40px}
+.tab-content #swiper-container2 .swiper-slide a img,.tab-content #swiper-container3 .swiper-slide a img{width:100%}
+.tab-content #swiper-container2 .swiper-button-next,.tab-content #swiper-container3 .swiper-button-next,.tab-content #swiper-container2 .swiper-button-prev,.tab-content #swiper-container3 .swiper-button-prev{width:30px;height:60px;color:#fff;margin-top:-30px;-webkit-tap-highlight-color:rgba(0,0,0,0);opacity:1;background-size:auto}
+.tab-content #swiper-container2 .swiper-button-next,.tab-content #swiper-container3 .swiper-button-next{background-image:url(/static/img/detail/corw_right.png);right:0}
+.tab-content #swiper-container2 .swiper-button-prev,.tab-content #swiper-container3 .swiper-button-prev{background-image:url(/static/img/detail/corw_left.png);left:0;opacity:1;background-size:auto}
+.tab-content #swiper-container2 .product-con,.tab-content #swiper-container3 .product-con{padding:6px;text-align:center}
+.tab-content #swiper-container2 .product-con h4,.tab-content #swiper-container3 .product-con h4{display:block;line-height:2;color:#000;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tab-content #swiper-container2 .product-con span,.tab-content #swiper-container3 .product-con span{display:block;color:#888;font-size:14px;line-height:1.5;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-line-clamp:2;-webkit-box-orient:vertical;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;text-overflow:ellipsis}
+.tab-content #swiper-container2 .product-con i,.tab-content #swiper-container3 .product-con i{display:block;margin-top:5px;color:#000;font-weight:400;font-size:15px}
+.tab-content #swiper-container2 .product-con i em,.tab-content #swiper-container3 .product-con i em{display:inline}
+.tab-content #swiper-container2 .product-con i em.sales,.tab-content #swiper-container3 .product-con i em.sales{color:#c62026}
+.tab-content #swiper-container2 .product-con i em.prime,.tab-content #swiper-container3 .product-con i em.prime{color:#0700c5}
+.tab-content #swiper-container2 .product-con i em.spPrice,.tab-content #swiper-container3 .product-con i em.spPrice{color:#000}
+.tab-content #swiper-container2 .product-con i del,.tab-content #swiper-container3 .product-con i del{display:inline;color:#888;margin-left:5px}
+.tab-content #swiper-container3.tab2{height:0}
+#swiper-container2 .swiper-button-disabled{opacity:.35}
+.detail-box .detail-swiper-title{padding:30px 0;text-align:center;border-top:1px solid #e5e5e5;font-size:16px;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:20px}
+.detail-box .detail-swiper-title .tab-title{width:160px;margin:0 auto}
+.detail-box .detail-swiper-title .tab-title p{float:left;cursor:pointer}
+.detail-box .detail-swiper-title .tab-title p.tab-like{color:#000}
+.detail-box .detail-swiper-title .tab-title p.tab-recent{color:#888}
+.detail-box .detail-swiper-title .tab-title em{display:block;float:left;text-align:center;width:30px;color:#e5e5e5}
